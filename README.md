@@ -2,7 +2,7 @@
 
 ### [Live Site](https://dotcomcomputers.netlify.app/)
 
-![ Application](https://m.media-amazon.com/images/I/5195radf8jL.jpg)
+![ Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1685799530/dotcomecomputers_rzpgyg.jpg)
 
 ## Introduction
 The computer shop application. 
