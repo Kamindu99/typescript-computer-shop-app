@@ -1,15 +1,14 @@
 import React from 'react'
-import './Homepage.css'
+import './BasicCard.css'
 type Props = {}
 
 function Homepage({}: Props) {
   return (
-    <div>
+    <div className='headercss'>
 
 <section>
     <div className="container">
     	<div className="row">
-    	    
     		<div className="col-md-4">
     		    <div className="card profile-card-1">
     		        <img src="https://images.pexels.com/photos/946351/pexels-photo-946351.jpeg?w=500&h=650&auto=compress&cs=tinysrgb" alt="profile-sample1" className="background"/>
