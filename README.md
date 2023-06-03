@@ -1,6 +1,6 @@
 # Copmuter Shop Management Web Application Using React-Typescript
 
-<!-- ### [Live Site](https://travelwithkaminu.netlify.app/) -->
+### [Live Site](https://dotcomcomputers.netlify.app/)
 
 ![ Application](https://m.media-amazon.com/images/I/5195radf8jL.jpg)
 
