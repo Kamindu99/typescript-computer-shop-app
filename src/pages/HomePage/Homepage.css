@@ -177,13 +177,14 @@
   background-position: center;
   position: relative;
   z-index: 1;
+  background: #bebebee4;
 }
 
 .appointment::after {
   position: absolute;
   content: '';
   top: 0;
-  background: #bebebee4;
+
   display: block;
   opacity: .8;
   height: 100%;
@@ -192,9 +193,12 @@
 }
 
 .appointmentimg {
-  height: 450px;
+  height: 550px;
   margin-left: -40%;
-  margin-top: 10%;
+}
+.appointmentimg2 {
+  height: 550px;
+  margin-left: 13%;
 }
 
 .cardResturent {

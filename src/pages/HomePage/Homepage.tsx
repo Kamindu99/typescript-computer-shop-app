@@ -67,7 +67,7 @@ function Homepage({ }: Props) {
         <>
             <div >
                 <div >
-                    <img style={{ width: '100%', height: '350px' }} src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/42e89993546277.5ed6ae8979655.png" />
+                    <img style={{ width: '100%', height: '350px' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1685870798/dotcomebanner_lylvys.jpg" />
                 </div>
                 <div className='gridaa'>
                     {data.map((item: any) => (
@@ -89,7 +89,7 @@ function Homepage({ }: Props) {
                     <div className="container">
                         <div className="row " >
                             <div className="col-md-4 d-none d-md-block">
-                                <img className='appointmentimg' src='https://icfsacademy.co.in/wp-content/uploads/2022/02/Digital-Marketing-Course.png' alt="" />
+                                <img className='appointmentimg' src='https://res.cloudinary.com/dmfljlyu1/image/upload/v1685872730/lapaddpng2_f8g4os.png' alt="" />
                             </div>
                             <div className="col-md-8 text-white py-5">
                                 <p className="" style={{ textDecorationLine: 'underline', color: 'black', fontSize: '35px', fontFamily: 'sans-serif' }}>Latest Laptops</p>
@@ -124,7 +124,49 @@ function Homepage({ }: Props) {
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div className="mb-4 appointment" style={{backgroundColor: '#6e657f26'}}>
+                    <div className="container">
+                        <div className="row " >
+                            <div className="col-md-8 text-white py-5" style={{marginLeft:'-10%'}}>
+                                <p className="" style={{ textDecorationLine: 'underline', color: 'black', fontSize: '35px', fontFamily: 'sans-serif' }}>Latest Desktops</p>
 
+                                <div className="row text-center text-lg-start">
+                                    {laptops.map((laptop: any) => (
+                                        <>
+                                            <div className="col-lg-4 col-md-4 col-6 mb-5">
+                                                <div className='card cardResturent' style={{ height: '150px', cursor: 'pointer' }}>
+                                                    <div className="row no-gutters">
+                                                        <div className="col-md-6">
+                                                            <img
+                                                                style={{ height: '110px', marginTop: '10%', width: '100px', objectFit: 'cover' }}
+                                                                className="img-fluid ml-1"
+                                                                src={laptop.image}
+                                                                alt=""
+                                                            />
+                                                        </div>
+                                                        <div className="col-md-6">
+                                                            <p className="mt-2 ms-2" style={{ fontSize: '12px', color: 'gray', textAlign: 'left' }} >{laptop.brandName}</p>
+                                                            <p style={{ fontSize: '13px', fontWeight: '900', fontFamily: '-moz-initial', color: 'blue', textAlign: 'left' }} className="mt-2 mr-2" >{laptop.lapName}</p>
+                                                            <p style={{ fontSize: '15px', color: 'red', fontWeight: '700', textAlign: 'left' }} >{laptop.price}</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="col-md-4 d-none d-md-block">
+                                <img className='appointmentimg2' src='https://res.cloudinary.com/dmfljlyu1/image/upload/v1685872730/lapaddpng1_noczaz.png' alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section className='headercsssection'>
                     <div className="container" style={{ width: '40%' }}>
                         <h4 style={{ textAlign: 'center', color: 'black', textDecoration: 'none' }}>Design and Developed by <a style={{ color: 'blue', textDecoration: 'none' }} href="https://www.linkedin.com/in/kamindu-gayantha-2b1b3a1a0/">Kamindu Gayantha</a> </h4>
