@@ -22,6 +22,11 @@ function Laptops({}: Props) {
   return (
     <div>
           <div>
+          <div className="container-fluid p-5" style={{backgroundColor:'#59456620'}}>
+                <h5 className="display-5">Laptop Computers</h5>
+                <p className="lead"> Laptop Computers are the best for gaming and office work</p>
+                <hr className="my-1" />
+            </div>
             <main className='desktopcss'>
                 <div className="container-fluid bg-trasparent my-4 p-3" style={{ position: "relative" }}>
                     <div className="row ">

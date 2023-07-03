@@ -30,10 +30,14 @@ function Software({ }: Props) {
     ]
 
     return (
+        <div>
+             <div className="container-fluid p-5" style={{backgroundColor:'#59456620'}}>
+                <h5 className="display-5">Computer Softwares</h5>
+                <p className="lead"> Software are the best for gaming and office work</p>
+                <hr className="my-1" />
+            </div>
         <div className='softwarecss mt-5'>
             <div className="container">
-              
-
                 <div id="products" className="row">
                   {software.map((software, index) => (
                     <>
@@ -60,6 +64,7 @@ function Software({ }: Props) {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }

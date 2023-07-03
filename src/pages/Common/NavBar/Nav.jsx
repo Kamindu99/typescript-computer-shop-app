@@ -23,8 +23,8 @@ export const Navbar = () => {
           <img src="https://pngimg.com/uploads/computer_pc/small/computer_pc_PNG102128.png"/>
         </div>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/laptop">LapTop</NavLink>
-      <NavLink to="/desktop">DeskTop</NavLink>
+      <NavLink to="/laptop">Laptop</NavLink>
+      <NavLink to="/desktop">Desktop</NavLink>
       <NavLink to="/accessories">Accessories</NavLink>
       <NavLink to="/software">Software</NavLink>
         <div className={Style.catdata}>

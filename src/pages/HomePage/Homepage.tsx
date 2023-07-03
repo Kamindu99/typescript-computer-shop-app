@@ -75,7 +75,7 @@ function Homepage({ }: Props) {
                             <img style={{ width: '200px', height: '200px' }} src={'https://pngimg.com/d/computer_pc_PNG7720.png'} alt="thumbnail" />
                             <h3>{item.title}</h3>
                             <p></p>
-                            <p className={'price'} >price $:{item.price}</p>
+                            <p className={'price'} >Price Rs.{item.price}</p>
                             <button>ADD TO CART</button>
                             <p></p>
                         </div>

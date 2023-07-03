@@ -30,7 +30,7 @@ function Cart({}: Props) {
          <div className="row">
              <div className="col-lg-10 offset-lg-1">
                  <div className="cart_container">
-                     <div className="cart_title">Shopping Cart<small> ({cartlists.length} item in your cart) </small></div>
+                     <div className="cart_title">DotCom Cart<small> ({cartlists.length} item in your cart) </small></div>
                      <div className="cart_items">
                          <ul className="cart_list">
                             {cartlists.map((cartlist, index) => (
@@ -44,7 +44,7 @@ function Cart({}: Props) {
                                      </div>
                                      <div className="cart_item_color cart_info_col">
                                          <div className="cart_item_title">Color</div>
-                                         <div className="cart_item_text"><span style={{backgroundColor:"#999999"}}></span>Silver</div>
+                                         <div className="cart_item_text"><span style={{backgroundColor:"#000000"}}></span>Black</div>
                                      </div>
                                      <div className="cart_item_quantity cart_info_col">
                                          <div className="cart_item_title">Quantity</div>
@@ -70,7 +70,7 @@ function Cart({}: Props) {
                              <div className="order_total_amount">Rs.{total.toFixed(2)}</div>
                          </div>
                      </div>
-                     <div className="cart_buttons"> <button type="button" className="button cart_button_clear">Continue Shopping</button> <button type="button" className="button cart_button_checkout">Checkout</button> </div>
+                     <div className="cart_buttons"> <button type="button" className="button cart_button_clear">Home Page</button> <button type="button" className="button cart_button_checkout">Checkout</button> </div>
                  </div>
              </div>
          </div>
