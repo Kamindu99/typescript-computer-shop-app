@@ -1,0 +1,35 @@
+.accessories {
+
+}
+
+.accessories body {
+    margin: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+.accessories .mt-50{
+    margin-top: 50px;
+}
+.accessories .mb-50{
+    margin-bottom: 50px;
+}
+
+
+.accessories .bg-teal-400 { 
+    background-color: #26a69a;
+}
+
+.accessories a{
+    text-decoration: none !important;
+}
+
+
+.accessories .fa {
+        color: red;
+}

@@ -103,7 +103,7 @@ function Homepage({ }: Props) {
                                                         <div className="col-md-6">
                                                             <img
                                                                 style={{ height: '110px', marginTop: '10%', width: '100px', objectFit: 'cover' }}
-                                                                className="img-fluid ml-1"
+                                                                className="img-fluid ms-3"
                                                                 src={laptop.image}
                                                                 alt=""
                                                             />
@@ -131,7 +131,7 @@ function Homepage({ }: Props) {
                 <div className="mb-4 appointment" style={{backgroundColor: '#6e657f26'}}>
                     <div className="container">
                         <div className="row " >
-                            <div className="col-md-8 text-white py-5" style={{marginLeft:'-10%'}}>
+                            <div className="col-md-7 text-white py-5" >
                                 <p className="" style={{ textDecorationLine: 'underline', color: 'black', fontSize: '35px', fontFamily: 'sans-serif' }}>Latest Desktops</p>
 
                                 <div className="row text-center text-lg-start">
@@ -142,8 +142,8 @@ function Homepage({ }: Props) {
                                                     <div className="row no-gutters">
                                                         <div className="col-md-6">
                                                             <img
-                                                                style={{ height: '110px', marginTop: '10%', width: '100px', objectFit: 'cover' }}
-                                                                className="img-fluid ml-1"
+                                                                style={{ height: '110px', marginTop: '10%', objectFit: 'cover'}}
+                                                                className="img-fluid ms-3"
                                                                 src={laptop.image}
                                                                 alt=""
                                                             />
@@ -161,7 +161,7 @@ function Homepage({ }: Props) {
                                     ))}
                                 </div>
                             </div>
-                            <div className="col-md-4 d-none d-md-block">
+                            <div className="col-md-5 d-none d-md-block">
                                 <img className='appointmentimg2' src='https://res.cloudinary.com/dmfljlyu1/image/upload/v1685872730/lapaddpng1_noczaz.png' alt="" />
                             </div>
                         </div>

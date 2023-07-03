@@ -23,12 +23,12 @@ export const Navbar = () => {
           <img src="https://pngimg.com/uploads/computer_pc/small/computer_pc_PNG102128.png"/>
         </div>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/#">LapTop</NavLink>
-      <NavLink to="/#">DeskTop</NavLink>
-      <NavLink to="/#">Accessories</NavLink>
-      <NavLink to="/#">Software</NavLink>
+      <NavLink to="/laptop">LapTop</NavLink>
+      <NavLink to="/desktop">DeskTop</NavLink>
+      <NavLink to="/accessories">Accessories</NavLink>
+      <NavLink to="/software">Software</NavLink>
         <div className={Style.catdata}>
-        <NavLink to="/#">
+        <NavLink to="/cart">
             <FaShoppingCart className={Style.Shppgcart} />
          </NavLink>
          {/* <div className={Style.busket}> {cartData.length}</div> */}

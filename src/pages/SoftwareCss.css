@@ -1,0 +1,75 @@
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover,
+a:focus {
+    color: #01b7f2;
+    text-decoration: none
+}
+
+.softwarecss {
+
+}
+.softwarecss .card img{
+    height: 200px;
+    object-fit: cover;
+}
+.softwarecss .glyphicon { margin-right:5px; }
+.softwarecss .thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.softwarecss .item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.softwarecss .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.softwarecss .item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.softwarecss .item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.softwarecss .item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.softwarecss .item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.softwarecss .item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.softwarecss .item.list-group-item img
+{
+    float: left;
+}
+.softwarecss .item.list-group-item:after
+{
+    clear: both;
+}
+.softwarecss .list-group-item-text
+{
+    margin: 0 0 11px;
+}
