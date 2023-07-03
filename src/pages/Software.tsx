@@ -11,7 +11,7 @@ function Software({ }: Props) {
             name: "Windows 10",
             price: 500,
             description: "Computer Mouse Pad with Stitched Edge, Premium-Textured Mouse Mat, Non-Slip Rubber Base Mousepad for Laptop, Computer & PC, 10.2 x 8.3 x 0.12 inches, Black",
-            image: "https://images.sftcdn.net/images/t_app-icon-m/p/108e7b84-9b24-11e6-9341-00163ed833e7/813111863/windows-10-launch-patch-32-bit-logo.png"
+            image: "https://redmondmag.com/-/media/ECG/redmondmag/Images/introimages2014/152101REDSchwartzWin10.jpg"
         },
         {
             id: 2,
@@ -26,6 +26,20 @@ function Software({ }: Props) {
             price: 2300,
             description: "Computer Mouse Pad with Stitched Edge, Premium-Textured Mouse Mat, Non-Slip Rubber Base Mousepad for Laptop, Computer & PC, 10.2 x 8.3 x 0.12 inches, Black",
             image: "https://www.everyshop.co.za/media/catalog/product/cache/ea1c1d49663f18175f3f3520f39859aa/1/0/10121257_eb6c.jpg"
+        },
+        {
+            id: 4,
+            name: "Adobe Photoshop",
+            price: 1700,
+            description: "Computer Mouse Pad with Stitched Edge, Premium-Textured Mouse Mat, Non-Slip Rubber Base Mousepad for Laptop, Computer & PC, 10.2 x 8.3 x 0.12 inches, Black",
+            image: "https://www.enespa-software.de/media/image/9c/fa/37/adobe-photoshop-cc_600x600.jpg"
+        },
+        {
+            id: 5,
+            name: "Microsoft Office",
+            price: 1300,
+            description: "Computer Mouse Pad with Stitched Edge, Premium-Textured Mouse Mat, Non-Slip Rubber Base Mousepad for Laptop, Computer & PC, 10.2 x 8.3 x 0.12 inches, Black",
+            image: "https://recursos.bps.com.es/files/701/79.jpg"
         },
     ]
 

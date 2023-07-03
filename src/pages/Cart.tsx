@@ -13,11 +13,18 @@ function Cart({}: Props) {
         image: "https://www.laptop.lk/wp-content/uploads/2021/11/01-2-300x300.jpg"
     },
     {
-        id: 1,
-        name: "Hp Keyboard",
+        id: 2,
+        name: "Dell Keyboard",
         price: 2000,
         quantity: 4,
         image: "https://ae01.alicdn.com/kf/S279c4454ddae499484f96c27a111ee1f7.jpg_640x640Q90.jpg_.webp"
+    },
+    {
+        id: 3,
+        name: "16GB Pendrive",
+        price: 1300,
+        quantity: 1,
+        image: "https://www.sathya.store/img/product/q0qeRegf44an6dvj.jpg"
     }
     ]
 

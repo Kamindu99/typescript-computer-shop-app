@@ -14,18 +14,32 @@ function Accessories({ }: Props) {
             image: "https://www.laptop.lk/wp-content/uploads/2021/11/01-2-300x300.jpg"
         },
         {
-            id: 1,
+            id: 2,
             name: "Ketyboard",
             price: 1200,
             description: " Keyboard and Mouse Combo, 2.4GHz Wireless Connection, Long Battery Life, Desktop, Laptop, PC, Chrome OS, Black",
             image: "https://ae01.alicdn.com/kf/S279c4454ddae499484f96c27a111ee1f7.jpg_640x640Q90.jpg_.webp"
         },
         {
-            id: 1,
+            id: 3,
             name: "16GB Pendrive",
             price: 3000,
             description: " Pendrive 16GB USB 2.0 Flash Drive Thumb Drive Jump Drive Memory Drive with LED Light for Storage and Backup",
             image: "https://www.sathya.store/img/product/q0qeRegf44an6dvj.jpg"
+        },
+        {
+            id: 4,
+            name: "Laptop Speaker",
+            price: 4500,
+            description: "Laptop Speaker with Stereo Sound, Portable USB Laptop Speakers with Volume Control & HD Sound, Mini USB Speakers",
+            image: "https://i.ebayimg.com/images/g/xCwAAOSwcONfJ93-/s-l400.jpg"
+        },
+        {
+            id: 5,
+            name: "2TB Hard Drive",
+            price: 3000,
+            description: "2 TB Surveillance Hard Drive - 5400 RPM Class, SATA 6 Gb/s, 64 MB Cache, 3.5 Inch - WD20PURZ",
+            image: "https://5.imimg.com/data5/ZQ/WQ/CD/SELLER-9889696/western-digital-purple-2tb-sata-internal-surveillance-hard-drive-wd-20purz-500x500.jpg"
         },
     ]
 

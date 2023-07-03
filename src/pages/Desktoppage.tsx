@@ -8,42 +8,42 @@ function Desktoppage({ }: Props) {
     const alldesktop = [
         {
             id: 1,
-            name: "Asus Rog",
+            name: "Dell Vostro",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://www.laptop.lk/wp-content/uploads/2022/01/Dell-Vostro-Desktop-3910-i3-with-Dell-Monitor.jpg"
         },
         {
             id: 1,
-            name: "Asus Rog",
+            name: "Asus i7",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://cdn.shopify.com/s/files/1/0419/5500/0480/products/gaming-pc-bundle-2022-amd-ryzen-5600g-16gb-ram-1tb-ssd-radeon-vega-7-graphics-165hz-monitor-gaming-rgb-keyboard-and-mouse-gaming-pc-amd-951026_grande.jpg?v=1663316841"
         },
         {
             id: 1,
-            name: "Asus Rog",
+            name: "HP i5",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://mdcomputers.lk/wp-content/uploads/2023/01/302449748_660184198365987_7101191635633772409_n-300x300.jpg"
         },
         {
             id: 1,
-            name: "Asus Rog",
+            name: "Acer i3",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://rukminim1.flixcart.com/image/850/1000/ko7idu80/desktop-computer/w/s/p/gamming-desktop-pc-01-radiant-electro-original-imag2pzydfe8hcsn.jpeg?q=20"
         },
         {
             id: 1,
-            name: "Asus Rog",
+            name: "Dell Core 2 Duo",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://techzone.lk/wp-content/uploads/2022/12/DELL-VOSTRO-3910.jpg"
         },
         {
             id: 1,
-            name: "Asus Rog",
+            name: "MSI i7",
             price: 12354.00,
             description: " Asus Rog 15.6 inch FHD 144Hz Gaming Laptop (AMD Ryzen 7 4800H, Nvidia GeForce GTX 1660Ti 6GB Graphics, 512GB PCI-e SSD, 16GB RAM, Windows 10)",
             image: "https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/SOL-66327-DesktopBuyingGuide-Storage_DualDrive-172092.jpg"
